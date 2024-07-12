@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Web Developer Intern",
     company: "Nexus Software.",
     description: `developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Tailwind Css", "mongoDB"],
+    technologies: ["Javascript", "React.js", "mongoDB"],
   },
   {
     year: "Aug - 2023",
@@ -37,7 +37,7 @@ export const PROJECTS = [
     image: ecommerceimg,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "Postgres"],
+    technologies: ["React", "Node.js", "Express.js", "Postgres"],
   },
   {
     title: "Employee Management App",
@@ -46,7 +46,6 @@ export const PROJECTS = [
       "An application for managing Employees Data, with features such as  creation, Updation, and Deletion tracking.",
     technologies: [
       "React",
-      "Tailwind Css",
       "Node.js",
       "Express.js",
       "Postgres",
