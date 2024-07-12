@@ -27,7 +27,7 @@ const FloatIconsVarient = (duration) => ({
 
 const Hero = () => {
   return (
-    <div className=" border-b border-neutral-900 pb-4 lg:mb-36">
+    <div className=" -mt-9 border-b border-neutral-900 pb-4 lg:mb-36">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -35,7 +35,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className=" pb-16 mt-4 ml-8 text-4xl font-thin tracking-tight lg:-ml-2 lg:mt-16 lg:text-6xl"
+              className=" pb-16 mt-3 ml-8 text-5xl font-thin tracking-tight lg:-ml-2 lg:mt-1 lg:text-6xl"
             >
               Vignesh
             </motion.h1>
@@ -63,7 +63,7 @@ const Hero = () => {
               variants={FloatIconsVarient(2.5)}
               initial="initial"
               animate="animate"
-              className="w-[420px]"
+              className="w-[420px] lg:-mt-16"
               src={profilePic}
               alt=""
             />
